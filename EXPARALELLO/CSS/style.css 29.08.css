@@ -1,0 +1,49 @@
+nav ul {
+    display: flex;
+    /* Exibe os itens do menu (os `<li>`) em uma linha horizontal, usando flexbox. */
+    flex-direction: row;
+    /* Garante que os itens fiquem dispostos lado a lado. */
+    margin: 0;
+    /* Remove as margens padrão ao redor da lista. */
+    padding: 0;
+    /* Remove o padding padrão dentro da lista. */
+}
+
+nav ul li {
+    list-style: none;
+    /* Tira aquelas bolinhas padrão que aparecem nas listas. */
+    height: 125px;
+    /* Deixa cada item do menu com 125 pixels de altura. */
+    padding: 0 25px 0 0;
+    /* Adiciona um espacinho de 25 pixels à direita de cada item. */
+}
+
+nav ul li:hover {
+    background: #444444;
+    /* Muda o fundo do item para cinza escuro quando você passa o mouse por cima. */
+}
+
+nav {
+    height: 125px;
+    /* Define a altura do menu de navegação para 125 pixels. */
+    max-width: 1480px;
+    /* Faz com que o menu não passe de 1480 pixels de largura. */
+    min-width: 1080px;
+    /* Garante que o menu não fique menor que 1080 pixels de largura. */
+    background-color: black;
+    /* Pinta o fundo do menu de preto. */
+}
+
+nav #logo img {
+    height: 75px;
+    /* Deixa o logotipo com 75 pixels de altura. */
+    margin: 25px;
+    /* Dá uma margem de 25 pixels ao redor do logotipo. */
+    float: left;
+    /* Faz o logotipo ficar alinhado à esquerda do menu. */
+}
+
+nav #mainMenu {
+    float: right;
+    /* Faz o menu principal ficar alinhado à direita do menu de navegação. */
+}
